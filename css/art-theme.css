@@ -1,4 +1,4 @@
-body{
+body {
     background-color: #1e8cbe;
     color: #ffffff;
     font-family: 'Karla', sans-serif;
@@ -7,4 +7,30 @@ body{
 .container {
     width: 80%;
     margin: 20px auto;
+}
+
+footer {
+    background-color: aquamarine;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10%;
+    grid-column-gap: 30%;
+    font-size: 30px;
+    color: black;
+}
+
+.footerLinks {
+    grid-column: 1;
+    grid-row: 1;
+    margin-left: 10%;
+}
+
+.footerMidden {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.footerRechts {
+    grid-column: 3;
+    grid-row: 1;
 }
