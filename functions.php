@@ -9,3 +9,4 @@ function art_init_theme() {
     register_nav_menu('main-menu', __('Hoofdmenu'));
 }
 add_action('init', 'art_init_theme');
+

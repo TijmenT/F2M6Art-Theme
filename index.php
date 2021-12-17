@@ -3,9 +3,10 @@
 
     $args = [
         'header-menu' => ( 'Header Menu' ),
-        'link_after' => ( '*' )
+        'link_before' => ( ''),
+        'link_after' => ( '' )
     ];
-    wp_nav_menu($args);
+    
 ?>
 
 <?php
