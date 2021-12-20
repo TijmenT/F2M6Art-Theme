@@ -2,9 +2,11 @@
     get_header();
 
     $args = [
-        'header-menu' => ( 'Header Menu' ),
+        'header-menu' => ( 'header menu' ),
         'link_before' => ( ''),
-        'link_after' => ( '' )
+        'link_after' => ( '' ),
+        'menu' => ('navbar'),
+        '.menu-item' => ('navbarMenu'), '.menu-item-has-children' => ('page-item-29, page-item-33, page-item-24')
     ];
     
 ?>

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 body {
     background-color: #1e8cbe;
     color: #ffffff;
@@ -18,36 +19,35 @@ a .container {
 
 .navbar a {
     color: black;
-    font-size: 30px;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .navbar a:hover {
     color: blue;
-    font-size: 35px;
 }
 
 .menu ul {
     display: grid;
-    grid-template-columns: 10fr 5fr 5fr 5fr;
-    grid-column-gap: 50%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 150%;
+    padding-left: 30%;
 }
 
-.menu .page-item-29 {
+.page-item-29 {
     grid-row: 1;
     grid-column: 3;
-    padding: 10%;
 }
 
-.menu .page-item-33 {
+.page-item-33 {
     grid-row: 1;
     grid-column: 2;
-    padding: 10%;
 }
 
-.menu.page-item-24 {
+.page-item-24 {
     grid-row: 1;
     grid-column: 1;
-    padding: 10%;
+    text-align: center!important;
 }
 
 
@@ -81,8 +81,10 @@ footer {
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 a:hover {
     text-decoration: none;
+    color: rgb(70, 70, 70);
 }
