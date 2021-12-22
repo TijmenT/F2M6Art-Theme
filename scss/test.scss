@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+body {
+    background-color: #1e8cbe;
+    color: #ffffff;
+    font-family: 'Karla', sans-serif;
+}
+
+a .container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+
+/*Navigation bar css*/
+
+.navbar {
+    background-color: white;
+    a {
+        color: black;
+        font-size: 25px;
+        font-family: 'Poppins', sans-serif;
+        &:hover {
+            color: blue;
+        }
+    }
+}
+
+.menu ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 150%;
+    padding-left: 30%;
+}
+
+.page-item-29 {
+    grid-row: 1;
+    grid-column: 3;
+}
+
+.page-item-33 {
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.page-item-24 {
+    grid-row: 1;
+    grid-column: 1;
+    text-align: center !important;
+}
+
+
+/*Footer instellingen*/
+
+footer {
+    background-color: rgb(3, 11, 82);
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 12.5%;
+    grid-column-gap: 30%;
+    font-size: 30px;
+    color: white;
+}
+
+.footerLinks {
+    grid-column: 1;
+    grid-row: 1;
+    margin-left: 10%;
+}
+
+.footerMidden {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.footerRechts {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    &:hover {
+        text-decoration: none;
+        color: rgb(70, 70, 70);
+    }
+}
