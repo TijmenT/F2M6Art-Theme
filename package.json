@@ -1,0 +1,22 @@
+{
+    "name": "art-theme",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "sass --style expanded scss/art-theme.scss css/art-theme.css",
+        "watch": "sass --watch scss:css --style expanded",
+        "prod": "sass --style compressed --sourcemap=none scss/art-theme.scss css/art-theme.css"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/TijmenT/F2M6Art-Theme.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/TijmenT/F2M6Art-Theme/issues"
+    },
+    "homepage": "https://github.com/TijmenT/F2M6Art-Theme#readme"
+}

@@ -11,22 +11,39 @@ a .container {
 }
 
 /*Navigation bar css*/
-.menu {
+.navbar {
   background-color: white;
-  display: flex;
-  width: 100%;
-  height: auto;
-  justify-content: center;
 }
-
-.menu a {
+.navbar a {
   color: black;
   font-size: 25px;
   font-family: "Poppins", sans-serif;
 }
-
-.menu a:hover {
+.navbar a:hover {
   color: blue;
+}
+
+.menu ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 150%;
+  padding-left: 30%;
+}
+
+.page-item-29 {
+  grid-row: 1;
+  grid-column: 3;
+}
+
+.page-item-33 {
+  grid-row: 1;
+  grid-column: 2;
+}
+
+.page-item-24 {
+  grid-row: 1;
+  grid-column: 1;
+  text-align: center !important;
 }
 
 /*Footer instellingen*/
@@ -60,12 +77,9 @@ a {
   text-decoration: none;
   color: white;
 }
-
 a:hover {
   text-decoration: none;
   color: #464646;
 }
 
-/*# sourceMappingURL=art-theme.scss.map */
-
-/*# sourceMappingURL=art-theme.css.map */
+/*# sourceMappingURL=test.css.map */
