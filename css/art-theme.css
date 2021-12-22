@@ -13,41 +13,27 @@ a .container {
 
 /*Navigation bar css*/
 
-.navbar {
+.menu {
     background-color: white;
+    display: flex;
+    width: 100%;
+    justify-content: center;
 }
 
-.navbar a {
+.menu a {
     color: black;
     font-size: 25px;
     font-family: 'Poppins', sans-serif;
 }
 
-.navbar a:hover {
+.menu a:hover {
     color: blue;
 }
 
 .menu ul {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 150%;
-    padding-left: 30%;
-}
-
-.page-item-29 {
-    grid-row: 1;
-    grid-column: 3;
-}
-
-.page-item-33 {
-    grid-row: 1;
-    grid-column: 2;
-}
-
-.page-item-24 {
-    grid-row: 1;
-    grid-column: 1;
-    text-align: center!important;
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
 }
 
 

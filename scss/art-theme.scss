@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+body {
+  background-color: #1e8cbe;
+  color: #ffffff;
+  font-family: "Karla", sans-serif;
+}
+
+a .container {
+  width: 80%;
+  margin: 20px auto;
+}
+
+/*Navigation bar css*/
+.menu {
+  background-color: white;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.menu a {
+  color: black;
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+}
+
+.menu a:hover {
+  color: blue;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-evenly;
+  width: 60%;
+}
+
+/*Footer instellingen*/
+footer {
+  background-color: rgb(3, 11, 82);
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 12.5%;
+  grid-column-gap: 30%;
+  font-size: 30px;
+  color: white;
+}
+
+.footerLinks {
+  grid-column: 1;
+  grid-row: 1;
+  margin-left: 10%;
+}
+
+.footerMidden {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.footerRechts {
+  grid-column: 3;
+  grid-row: 1;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgb(70, 70, 70);
+}
+
+/*# sourceMappingURL=art-theme.scss.map */
