@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+/*kleuren opdracht*/
+
+$menu-item-bg:#1e8cbe;
 body {
-    background-color: #1e8cbe;
+    background-color: $menu-item-bg;
     color: #ffffff;
     font-family: "Karla", sans-serif;
 }
@@ -18,24 +22,27 @@ a .container {
     display: flex;
     width: 100%;
     height: auto;
-    justify-content: center;
-}
-
-.menu a {
-    color: black;
-    font-size: 25px;
-    font-family: "Poppins", sans-serif;
-}
-
-.menu a:hover {
-    color: blue;
+    justify-content: right;
+    a {
+        color: black;
+        font-size: 25px;
+        font-family: "Poppins", sans-serif;
+    }
+    ul {
+        display: flex;
+        justify-content: space-evenly;
+        width: 60%;
+    }
+    a:hover {
+        color: blue;
+    }
 }
 
 
 /*Footer instellingen*/
 
 footer {
-    background-color: rgb(3, 11, 82);
+    background-color: #030b52;
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 12.5%;
@@ -63,12 +70,8 @@ footer {
 a {
     text-decoration: none;
     color: white;
+    &:hover {
+        text-decoration: none;
+        color: #464646;
+    }
 }
-
-a:hover {
-    text-decoration: none;
-    color: rgb(70, 70, 70);
-}
-
-
-/*# sourceMappingURL=art-theme.scss.map */
