@@ -1,0 +1,22 @@
+/*Navigation bar css*/
+
+.menu {
+    background-color: white;
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: right;
+    a {
+        color: black;
+        font-size: 25px;
+        font-family: "Poppins", sans-serif;
+    }
+    ul {
+        display: flex;
+        justify-content: space-evenly;
+        width: 60%;
+    }
+    a:hover {
+        color: blue;
+    }
+}

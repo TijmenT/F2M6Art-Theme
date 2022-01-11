@@ -1,41 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+@import "navigation";
 
 /*kleuren opdracht*/
 
-$menu-item-bg:#1e8cbe;
+$body-item-bg:#1e8cbe;
+$body-color:#ffffff;
+$body-fontfamily:"Karla",
+sans-serif;
 body {
     background-color: $menu-item-bg;
-    color: #ffffff;
-    font-family: "Karla", sans-serif;
+    color: $body-color;
+    font-family: $body-fontfamily;
 }
 
 a .container {
     width: 80%;
     margin: 20px auto;
-}
-
-
-/*Navigation bar css*/
-
-.menu {
-    background-color: white;
-    display: flex;
-    width: 100%;
-    height: auto;
-    justify-content: right;
-    a {
-        color: black;
-        font-size: 25px;
-        font-family: "Poppins", sans-serif;
-    }
-    ul {
-        display: flex;
-        justify-content: space-evenly;
-        width: 60%;
-    }
-    a:hover {
-        color: blue;
-    }
 }
 
 
