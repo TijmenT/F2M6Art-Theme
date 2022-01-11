@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
 @import "navigation";
+@import "footer";
 
 /*kleuren opdracht*/
 
@@ -16,35 +17,6 @@ body {
 a .container {
     width: 80%;
     margin: 20px auto;
-}
-
-
-/*Footer instellingen*/
-
-footer {
-    background-color: #030b52;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    padding: 12.5%;
-    grid-column-gap: 30%;
-    font-size: 30px;
-    color: white;
-}
-
-.footerLinks {
-    grid-column: 1;
-    grid-row: 1;
-    margin-left: 10%;
-}
-
-.footerMidden {
-    grid-column: 2;
-    grid-row: 1;
-}
-
-.footerRechts {
-    grid-column: 3;
-    grid-row: 1;
 }
 
 a {
