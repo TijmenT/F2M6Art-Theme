@@ -1,20 +1,28 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
 body {
-    background-color: #1e8cbe;
-    color: #ffffff;
+    background-color: #E24425;
+    color: black;
     font-family: "Karla", sans-serif;
 }
+
+
+/*container*/
 
 a .container {
     width: 80%;
     margin: 20px auto;
 }
 
+.container {
+    align-items: center;
+    padding: 5%;
+}
+
 
 /*Navigation bar css*/
 
 .menu {
-    background-color: white;
+    background-color: black;
     display: flex;
     width: 100%;
     height: auto;
@@ -22,7 +30,7 @@ a .container {
 }
 
 .menu a {
-    color: black;
+    color: white;
     font-size: 25px;
     font-family: "Poppins", sans-serif;
 }
@@ -38,13 +46,33 @@ a .container {
 }
 
 
+/*button styling*/
+
+a:hover {
+    background-color: rgb(41, 41, 41);
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px 25px;
+    font-size: 20px;
+}
+
+
 /*Footer instellingen*/
 
 footer {
     background-color: #030b52;
     display: grid;
     grid-template-columns: auto auto auto;
-    padding: 12.5%;
+    padding: 10%;
     grid-column-gap: 30%;
     font-size: 30px;
     color: white;
@@ -64,16 +92,6 @@ footer {
 .footerRechts {
     grid-column: 3;
     grid-row: 1;
-}
-
-a {
-    text-decoration: none;
-    color: white;
-}
-
-a:hover {
-    text-decoration: none;
-    color: #464646;
 }
 
 
