@@ -10,3 +10,6 @@ function art_init_theme() {
 }
 add_action('init', 'art_init_theme');
 
+
+
+

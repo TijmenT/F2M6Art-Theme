@@ -2,7 +2,20 @@
 body {
     background-color: #E24425;
     color: black;
-    font-family: "Karla", sans-serif;
+    font-family: "Grafik Regular", sans-serif;
+}
+
+
+/*custom fonts*/
+
+@font-face {
+    font-family: "SchulbuchNord Normal";
+    src: url(fonts/SchulbuchNord.otf);
+}
+
+@font-face {
+    font-family: "Graphik regulare";
+    src: url(fonts\Graphik-fontt-family/GraphikRegular.otf);
 }
 
 
@@ -63,6 +76,36 @@ a {
     border-radius: 20px;
     padding: 10px 25px;
     font-size: 20px;
+}
+
+
+/*container instellingen*/
+
+.EscapeviaEyescapeHeading {
+    text-align: center;
+    font-size: 60px;
+}
+
+.informatiebox-1,
+.Informatiebox2,
+.Informatieblok-3 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.informatiebox-1 {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.Informatiebox2 {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.Informatieblok-3 {
+    grid-column: 3;
+    grid-row: 1;
 }
 
 
