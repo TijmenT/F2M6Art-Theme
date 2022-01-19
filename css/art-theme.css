@@ -78,37 +78,37 @@ a {
     font-size: 20px;
 }
 
+p {
+    text-align: center;
+}
+
+.EscapeviaescapeHeading {
+    font-size: 45px;
+    padding: 8%;
+}
+
 
 /*container instellingen*/
 
-.EscapeviaEyescapeHeading {
+.escapeviaEyescapeSection {
     text-align: center;
-    font-size: 60px;
+    width: 100%;
+    margin: auto;
 }
 
-.informatiebox-1,
-.Informatiebox2,
-.Informatieblok-3 {
-    display: grid;
-    grid-template-columns: auto auto auto;
+.escapeviaEyescapeSection {
+    text-align: center;
 }
 
-.informatiebox-1 {
-    grid-column: 1;
-    grid-row: 1;
+.escapeviaEyescapeTitleHeading {
+    font-size: 35px;
 }
 
-.Informatiebox2 {
-    grid-column: 2;
-    grid-row: 1;
+.wp-block-buttons {
+    align-items: center;
 }
 
-.Informatieblok-3 {
-    grid-column: 3;
-    grid-row: 1;
-}
-
-
+.wp-block-button
 /*Footer instellingen*/
 
 footer {
