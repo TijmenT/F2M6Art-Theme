@@ -104,11 +104,24 @@ p {
     font-size: 35px;
 }
 
-.wp-block-buttons {
+.buttonl {
     align-items: center;
 }
 
-.wp-block-button
+.is-style-outline>.wp-block-button__link:not(.has-background) {
+    background-color: transparent;
+    justify-content: right;
+}
+
+.leesmeerButtons {
+    padding-left: 25%;
+}
+
+.bezoekButtons {
+    justify-content: center;
+}
+
+
 /*Footer instellingen*/
 
 footer {
@@ -136,9 +149,3 @@ footer {
     grid-column: 3;
     grid-row: 1;
 }
-
-
-/*# sourceMappingURL=art-theme.scss.map */
-
-
-/*# sourceMappingURL=art-theme.css.map */
