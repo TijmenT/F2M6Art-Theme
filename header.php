@@ -17,6 +17,7 @@
 <?php wp_nav_menu( array( 'theme_location' => 'main-menu', 'container_class' => 'menu', 'menu_class' => '') );?>
 
 <div class="container">
-    <div class="escapeviaEyescape"
-    ></div>
-<?php echo do_shortcode('[sp_wpcarousel id="189"]'); ?>
+    
+    <div class="escapeviaEyescape">
+    </div>
+

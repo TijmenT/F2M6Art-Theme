@@ -122,11 +122,37 @@ p {
     padding-left: 35%;
 }
 
+.InfoEscapeRoomHeading {
+    font-size: 40px;
+    padding-top: 30%;
+}
+
+.InfoEscapeRoomImage {
+    padding-top: 17%;
+}
+
+.InfoEscapeRoomTekst {
+    font-size: 17px;
+}
+
+.SpecialEscapeRoomHeading {
+    font-size: 40px;
+    padding-top: 30%;
+}
+
+.SpecialEscapeRoomImage {
+    padding-top: 17%;
+}
+
+.SpecialEscapeRoomTekst {
+    font-size: 17px;
+}
+
 
 /*Footer instellingen*/
 
 footer {
-    background-color: #030b52;
+    background-color: black;
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 10%;
@@ -149,4 +175,5 @@ footer {
 .footerRechts {
     grid-column: 3;
     grid-row: 1;
+    font-size: 20px;
 }
