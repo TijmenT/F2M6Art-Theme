@@ -114,11 +114,12 @@ p {
 }
 
 .leesmeerButtons {
-    padding-left: 25%;
+    padding-left: 30%;
 }
 
 .bezoekButtons {
     justify-content: center;
+    padding-left: 35%;
 }
 
 

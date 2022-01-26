@@ -32,3 +32,4 @@ endif;
     get_footer();
 
 ?>
+<?php echo do_shortcode('[sp_wpcarousel id="189"]'); ?>
